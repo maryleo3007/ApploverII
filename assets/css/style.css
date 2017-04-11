@@ -1,3 +1,38 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #fff;
+}
+img {
+  vertical-align: middle;
+}
+.container:before, .container:after {
+    content: " ";
+    display: table;
+}
+
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container:after {
+    clear: both;
+}
 .link{
   font-weight: 700;
   padding: 21px;
@@ -15,6 +50,11 @@ header{
 .menu-container{
   padding: 14px 70px;
   overflow: auto;
+}
+.menu-container a{
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
 }
 #home{
   background-image: url(../img/bg-home.jpg);
@@ -42,6 +82,7 @@ header{
   margin-top: 63px;
   font-size: 14px;
   display: inline-block;
+  text-decoration: none;
 }
 #services{
   background-color:#F17C72;
@@ -69,6 +110,11 @@ header{
   display: inline-block;
   padding: 30px;
 }
+.box-img a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
 .img-work{
   width: 270px;
   height: 270px;
@@ -95,11 +141,10 @@ header{
 }
 .imagen a{
   text-decoration: none;
-  color: #2ACA97;
-  font-size: 35px;
+  color: #009999;
+  font-size: 25px;
   font-weight: bold;
-  margin-top: 20%;
-  
+  margin-top: 25%;
 }
 .imagen a:nth-child(2){
   margin: 0;
@@ -110,7 +155,6 @@ header{
   height: 100%;
   width: 500px;
   max-width: 100%;
-  /*border-style: ridge;*/
   border: 10px solid #fff;
   box-sizing: border-box;
   position: relative;
@@ -122,8 +166,8 @@ header{
   color: #2ACA97;
 	padding: 5px;
   position: fixed;
-  right: 20%;
-  bottom: 70%
+  right: 31%;
+  bottom: 72%
 }
 footer{
   text-align: center;
