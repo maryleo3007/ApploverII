@@ -94,14 +94,37 @@ header{
   align-items: center;
 }
 .imagen a{
-  color: #fff;
+  text-decoration: none;
+  color: #2ACA97;
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 20%;
+  
 }
 .imagen a:nth-child(2){
-  /*flex-grow: 1;*/
-  flex-shrink: 1;
-  /*flex-basis: 10px;  */
+  margin: 0;
+  height: 100%;
 }
-
+.imagen img{
+  margin-top: 30%;
+  height: 100%;
+  width: 500px;
+  max-width: 100%;
+  /*border-style: ridge;*/
+  border: 10px solid #fff;
+  box-sizing: border-box;
+  position: relative;
+}
+.cerrar{
+  display: block;
+	font-size: 25px;
+  text-decoration: none;
+  color: #2ACA97;
+	padding: 5px;
+  position: fixed;
+  right: 20%;
+  bottom: 70%
+}
 footer{
   text-align: center;
   height: 70px;
