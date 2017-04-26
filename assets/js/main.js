@@ -42,6 +42,7 @@ function createModalHtml(parent){
     a4.setAttribute("class","cerrar");
     a4.setAttribute("href","#contentImages");
     a4.appendChild(document.createTextNode("X"));
+    
 
     var a = document.createElement("a");
     if(i==1){

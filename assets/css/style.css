@@ -168,6 +168,9 @@ header{
   right: 31%;
   bottom: 72%;
 }
+.cerrar:hover{
+  color: #3CD06E
+}
 footer{
   text-align: center;
   height: 70px;
